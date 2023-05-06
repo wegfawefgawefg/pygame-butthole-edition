@@ -1,6 +1,4 @@
-.. image:: ![Alt text](logo.png?raw=true "urmom")
-  :alt: pygame-butthole-edition
-  :target: https://www.pygame-butthole-edition.org/
+<img src="logo.png" width=100%/> 
 
 
 |AppVeyorBuild| |PyPiVersion| |PyPiLicense|

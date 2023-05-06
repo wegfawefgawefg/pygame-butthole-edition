@@ -180,3 +180,7 @@ See docs/licenses for licenses of dependencies.
 .. _Compilation wiki page: https://www.pygame-butthole-edition.org/wiki/Compilation
 .. _docs page: https://www.pygame-butthole-edition.org/docs/
 .. _GNU LGPL version 2.1: https://www.gnu.org/copyleft/lesser.html
+
+
+branches and forks are a normal feature of git and foss. unless you set up the liscensing and have the physical power to defend it, 
+people can do what they want with your foss ideas. its weird to foss something you made but be upset when people use it like foss. 

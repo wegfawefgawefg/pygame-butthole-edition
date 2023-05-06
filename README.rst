@@ -1,7 +1,7 @@
-.. image:: https://raw.githubusercontent.com/wegfawefgawefg/pygame-butthole-edition/blob/main/logo.png?sanitize=true
+.. image:: https://github.com/wegfawefgawefg/pygame-butthole-edition/blob/main/logo.png?raw=true
   :alt: pygame-butthole-edition
   :target: https://www.pygame-butthole-edition.org/
-  
+
 |AppVeyorBuild| |PyPiVersion| |PyPiLicense|
 |Python3| |GithubCommits| |BlackFormatBadge|
 

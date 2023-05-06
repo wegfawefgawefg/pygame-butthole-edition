@@ -1,6 +1,7 @@
-<img src="logo.png" width=100%/> 
-
-
+.. image:: https://raw.githubusercontent.com/wegfawefgawefg/pygame-butthole-edition/blob/main/logo.png?sanitize=true
+  :alt: pygame-butthole-edition
+  :target: https://www.pygame-butthole-edition.org/
+  
 |AppVeyorBuild| |PyPiVersion| |PyPiLicense|
 |Python3| |GithubCommits| |BlackFormatBadge|
 

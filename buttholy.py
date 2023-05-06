@@ -1,17 +1,18 @@
 import os
 import re
 
-source_folder = "../pygame-butthole-edition"
+source_folder = "/path/to/pygame/source"
+prefix = "butthole"
 
 
 def rename_function_defs(match):
     name = match.group(1)
-    return f"def butthole_{name}"
+    return f"def {prefix}_{name}"
 
 
 def rename_function_calls(match):
     name = match.group(1)
-    return f"butthole_{name}"
+    return f"{prefix}_{name}"
 
 
 def process_file(file_path):
@@ -21,10 +22,16 @@ def process_file(file_path):
     # Rename function definitions with the format "def function_name", excluding those starting with underscores
     content = re.sub(r"def (?<!_)(\w+)", rename_function_defs, content)
 
-    # Rename function calls, excluding those starting with underscores
-    content = re.sub(
-        r"(?<![\w_])(?<!butthole_)(?<!_)(\w+)\(", rename_function_calls, content
-    )
+    # First find all function names starting with "def ", excluding those starting with underscores
+    function_names = re.findall(r"def (?<!_)(\w+)", content)
+
+    # Rename function calls, excluding those starting with underscores or already having the prefix
+    for function_name in function_names:
+        content = re.sub(
+            rf"(?<![\w_])(?<!{prefix}_){function_name}\(",
+            rename_function_calls,
+            content,
+        )
 
     with open(file_path, "w") as f:
         f.write(content)

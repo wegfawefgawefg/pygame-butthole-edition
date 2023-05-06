@@ -1,7 +1,7 @@
 import os
 import re
 
-source_folder = "/path/to/pygame/source"
+source_folder = "./"
 prefix = "butthole"
 
 

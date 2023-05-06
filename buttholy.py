@@ -1,7 +1,7 @@
 import os
 import re
 
-source_folder = "/path/to/pygame/source"
+source_folder = "../pygame-butthole-edition"
 
 
 def rename_function_defs(match):

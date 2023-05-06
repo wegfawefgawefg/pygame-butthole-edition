@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/pygame-butthole-edition/pygame-butthole-edition/main/docs/reST/_static/pygame-butthole-edition_logo.svg
+.. image:: ![Alt text](logo.png?raw=true "urmom")
   :alt: pygame-butthole-edition
   :target: https://www.pygame-butthole-edition.org/
 
